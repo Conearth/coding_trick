@@ -1,4 +1,5 @@
 def matplotlib_multi_pic(img_list):
+# items in img_list are objects of cv2.imread(...) 
     for i in range(8):
         img = img_list[i]
         print(img.shape)
